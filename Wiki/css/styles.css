@@ -196,16 +196,21 @@ footer{
     width: 100%;
     padding: 20px;
     align-items: up;
+    background-color:#1a81b136 ;
 }
 
 .equipo{
-    width: 50%;
-    font-size: 25px;
+    width: 60%;
+    font-size: 27px;
     display: inline-block;
 }
 
 .equipo p{
     font-size: 17px;
+}
+
+.equipo ul{
+    border: black;
 }
 
 .titulo_secu p{
