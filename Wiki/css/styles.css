@@ -98,9 +98,7 @@ header{
 .equipo_infra{
     background-color: white;
     padding: 20px; 
-    font-size: 20px;
-    flex-wrap: wrap;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
 }
 
@@ -117,10 +115,22 @@ header{
     display: inline-block;
     align-items: center;
     justify-content: center;
-    width: 300px;
+    width: 19.5%;
     padding: 20px;
     margin: 5px;
     border-radius: 5px;
+}
+
+.integrante_equipo>h2{
+    color: black;
+    font-size: 28px;
+    padding: 1px;
+}
+
+
+.imgIntegrante{
+    width: 100%;
+    border-radius: 90% 60%;
 }
 
 footer{
@@ -237,10 +247,10 @@ footer{
 }
 
 .redmine{
-    size-adjust: 10px;
+    size-adjust: 20px;
     display: block;
     width: 100%;
-    padding: 20px;
+    padding: 10px;
 }
 
 .documento{
@@ -255,7 +265,7 @@ footer{
     padding: 10px;  
 } 
 
-.mediosDeComu{
+.mediosDeComu>table{
     display: inline-block;
     width: 100%;
     padding: 20px;
@@ -264,7 +274,7 @@ footer{
 .mediosDeComu img{
     display: block;
     block-size: 20px 20px;
-    width: 10%;
+    width: 90%;
     margin: 10px;
 }
 
@@ -277,3 +287,10 @@ footer{
     color: rgb(41, 40, 40);
     text-align: justify;
 }
+
+video{
+    width: 70%;
+    margin: 20px;
+}
+
+

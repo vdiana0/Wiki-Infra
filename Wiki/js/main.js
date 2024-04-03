@@ -11,3 +11,4 @@ for (let i = 0; i < acordeon.length; i++) {
         }
     });
 }
+
