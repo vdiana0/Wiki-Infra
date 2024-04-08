@@ -26,20 +26,67 @@
 
         <section class="informacion">
 
-            <button class="acordeon">Accesos Iniciales</button>
+            <button class="acordeon">Acceso a Keepass</button>
              <article class="desplegable">
-                <p>ZABBIX: Haciendo click <a class="correo" href="https://zabbix.topgroup.tech/zabbix/zabbix.php?action=dashboard.view">AQUÍ</a> vas a acceder al tablero de Zabbix, inicia sesión con tus credenciales una vez ya autorizado. Verás las alertas.
+                <p>
+                    KEEPASS: Dentro de Keepass vas a encontrar el acceso a todo los lugares requeridos por el equipo, entra en infraestructura - Documentos/Keepass. Selecciona BD_TEC_COL.kdbx e ingresa con la contraseña <a class="correo">P4$$w0rdT0P</a>  </p>
+                    <br><img class="keepass" src="../assets/imagenes/accesoKeepass.png" alt="Acceso a Keepass" class="redmine">
+            </article>
+
+            <button class="acordeon">Accesos principales</button>
+            <article class="desplegable">
+               <p>ZABBIX: Haciendo click <a class="correo" href="https://zabbix.topgroup.tech/zabbix/zabbix.php?action=dashboard.view">AQUÍ</a> vas a acceder al tablero de Zabbix, inicia sesión con tus credenciales una vez ya autorizado. Verás las alertas.
+               <br>
+               <br>
+               KOWL: Haciendo click <a href="https://kafka.sm-co-prod.aws.cencosud.com/kafkaweb/topics/my-connect-cluster-status?o=-1&p=-1&q&s=50#messages" class="correo">AQUÍ</a> vas a poder visualizar los conectores.
+               <br>
+               <br>
+               SHAREPOINT: Haciendo click <a href="https://topgroupsa.sharepoint.com/sites/Infraestructura/Documentos%20compartidos/Forms/AllItems.aspx" class="correo">AQUÍ</a> encontrarás la carpeta de SharePoint de Infraestructura, solicita el permiso para poder entrar y fijala en tu computadora (con OneDrive).
                 <br>
+               <br>
+               LUDICHART: Accede haciendo click <a href="https://lucid.app/es-LA/users/login#/loggedOut" class="correo">AQUÍ</a>. Las credenciales son: <a class="correo">alonsoporras28@gmail.com</a> y la contraseña <a class="correo">B4nd4t3c4!/2023</a>
+               </p>
+           </article>
+
+           <button class="acordeon">Acceso a Escritorio Remoto</button>
+             <article class="desplegable">
+                <p> Este video te explicará como acceder al Escritorio remoto donde podrás (bla bla bla): </p>
+                    <video controls id="video" src="../assets/videos/ConexionDirectorioRemoto.mp4"></video>
+            </article>
+
+            <button class="acordeon">ServiceDesk</button>
+             <article class="desplegable">
+                <p> Por medio de ServiceDesk nos encargamos de reicibir y sar solución a los problemas técnicos oo solicitudes por parte de nuestra compañía. Haciedo click <a href="https://servicedesk.topgroup.tech/index.php?noAUTO=1" class="correo">AQUÍ</a> tendrás acceso a ServiceDesk, ingresas con tus credenciales de red. </p>
+                    <br><img class="servicedesk" src="../assets/imagenes/inicioServiceDesk.png" alt="Página de inicio ServiceDesk">
+            </article>
+
+            <button class="acordeon">Isabella</button>
+            <article class="desplegable">
+               <p> Haciedo click <a href="https://servicedesk.topgroup.tech/index.php?noAUTO=1" class="correo">AQUÍ</a> tendrás acceso a ServiceDesk, ingresas con tus credenciales de red. 
+           </article>
+
+           <button class="acordeon">Alistamiento de equipos</button>
+             <article class="desplegable">
+                <p>El alistamiento de equipos se realiza cuando nos llega un equipo nuevo o cuando se completó algún cambio de equipo. Es recomendable formatear el equipo cada vez que sea usado, con el fin de eviatar errores en el sistema.
+                    <br>
+                1. Sebe debe realizar la instalación de Windows desde la USB que se encuentra en la oficina. Configurar la instalación común y corriente.
                 <br>
-                KOWL: Haciendo click <a href="https://kafka.sm-co-prod.aws.cencosud.com/kafkaweb/topics/my-connect-cluster-status?o=-1&p=-1&q&s=50#messages" class="correo">AQUÍ</a> vas a poder visualizar los conectores.
+                2. Se debe crear el usuario <a class="correo">tgpadmin</a> cuya contraseña debe ser <a class="correo">topgroup.00</a>, para las preguntas de seguridad todas las respuestas deben ser <a class="correo">topgroup.00</a>
                 <br>
+                3. Una vez tengamos el equipo listo, debemos subir el dispositivo al dominio de TopGroup de la siguiente manera:
+                <ul>
+                    <li>¬Acceder a configuración y acerca de</li>
+                    <li>¬En la parte derecha ingresar a <a class="correo">Configuración avanzada del sistema</a></li>
+                    <li>¬En <a class="correo">Nombre de equipo</a> cambiar el dominio y se debe colocar <a class="correo">topgroup.com</a></li>
+                </ul>
+                <p>
+                4. Se debe hacer la instalación de las aplicaciones básicas dependiendo del cargo de la persona: 
+                <tr></tr>
+            </p>
+                <img src="../assets/imagenes/aplicaiconesBasicas.png" alt="">
                 <br>
-                SHAREPOINT: Haciendo click <a href="https://topgroupsa.sharepoint.com/sites/Infraestructura/Documentos%20compartidos/Forms/AllItems.aspx" class="correo">AQUÍ</a> encontrarás la carpeta de SharePoint de Infraestructura, solicita el permiso para poder entrar y fijala en tu computadora (con OneDrive).
-            <br>
-            <br>
-                KEEPASS: Previamente solicita la contraseña de Keepass al líder o compañeros. Desde la carpeta compartida en SharePoint, entra en infraestructura - Documentos/Keepass. Selecciona a donde quieras ingresar y coloca la contraseña que corresponde: <img src="../assets/imagenes/accesoKeepass.png" alt="Acceso a Keepass" class="redmine"> 
-                <br>
-                LUDICHART: Para acceder a Ludichart las credenciales son: <a class="correo">alonsoporras28@gmail.com</a> y la contraseña <a class="correo">B4nd4t3c4!/2023</a>
+                <p>
+                5. Si es un usuario nuevo, este se debe crear desde el Escritorio Remoto, de lo contrario solo se debe ingresar las credenciales del usuario ya existente.
                 </p>
             </article>
  
