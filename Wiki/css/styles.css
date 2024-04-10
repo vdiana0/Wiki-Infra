@@ -115,7 +115,7 @@ header{
     display: inline-block;
     align-items: center;
     justify-content: center;
-    width: 19.5%;
+    width: 20%;
     padding: 20px;
     margin: 5px;
     border-radius: 5px;
@@ -292,4 +292,25 @@ video{
     width: 70%;
     margin: 20px;
     justify-content: center;
+}
+
+.tablaAppBasicas{
+    width: 40%;
+    font-size: 18px;
+    display: inline-table;
+    border: black solid 1px;
+    margin: 5px;
+    box-shadow: black;
+}
+
+.tablaAppBasicas td{
+    padding: 10px;
+    border-block-end: black solid 1px;
+    border: black solid 1px;
+}
+
+.cargos{
+    border: black solid 1px;
+    margin: 2px;
+    background-color: #1a81b136;
 }
