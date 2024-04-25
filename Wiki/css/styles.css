@@ -231,8 +231,9 @@ footer{
 }
 
 .desplegable img{
-    width: 40%;
+    width: 30%;
     size: 5px;
+    margin: 12px;
 }
 
 .correo{
@@ -313,4 +314,27 @@ video{
     border: black solid 1px;
     margin: 2px;
     background-color: #1a81b136;
+}
+
+.login{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 5px;
+    width: 30%;
+    text-decoration: none;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenidoActivo{
+    display: block;
+}
+
+.oculto{
+    display: none;
 }
