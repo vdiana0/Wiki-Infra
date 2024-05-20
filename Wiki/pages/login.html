@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Login</title>
+</head>
+<body class="bodyLogin">
+
+    <section class="contenedor">
+        <form action="../pages/privado.html" class="formulario">
+            <h1>Iniciar Sesión</h1>
+            <article class="cajaLogin">
+                <input type="text" placeholder="Usuario" id="usuario" required>
+                <i class='bx bxs-user'></i>
+            </article>
+            <article class="cajaLogin">
+                <input type="password" placeholder="Contraseña" id="contraseña" required>
+                <i class='bx bxs-lock-alt' ></i>
+            </article>
+            <article class="recuerdame">
+                <input type="checkbox"> Recuérdame
+            </article>
+            <button type="button" id="btn-btnLogin" onclick="login()" class="btnLogin">Ingresar</button>
+        </form>
+    </section>
+    
+</body>
+<script src="../js/main.js"></script>
+</html>

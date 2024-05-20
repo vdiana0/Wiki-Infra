@@ -12,17 +12,15 @@ for (let i = 0; i < acordeon.length; i++) {
     });
 }
 
+function login() {
 
-let username = document.getElementById("usuario").value;
-let password = document.getElementById("contraseña").value;
-let btnlogin = document.getElementById("btn-btnLogin");
+    let username = document.getElementById("usuario").value;
+    let password = document.getElementById("contraseña").value;
 
-btnlogin.addEventListener("click", function () {
-    if (username === "admin" && password === "1234") {
-        document.getElementById("contenidoPrivado").classList.remove("oculto");
-        document.getElementById("contenidoPrivado").classList.add("contenidoActivo"); 
-        document.getElementById("login").classList.add("oculto");
-    } else{
+    if (username == "admin" && password =="topgroup.00") {
+        window.location="../pages/privado.html";
+    } else {
         alert("Usuario y/o contraseña incorrectos");
+        return;
     }
-    });
+}

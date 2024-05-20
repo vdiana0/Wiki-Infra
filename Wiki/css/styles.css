@@ -316,25 +316,83 @@ video{
     background-color: #1a81b136;
 }
 
-.login{
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 20px;
-    border-radius: 5px;
-    width: 30%;
-    text-decoration: none;
-    font-size: 20px;
+.bodyLogin{
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    min-height: 100vh;
+    background-image: url(../assets/imagenes/fondoLogin.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
-.contenidoActivo{
-    display: block;
+.contenedor{
+    width: 40%;
+    padding: 30px 40px;
+    background-color: transparent;
+    border: 2px solid rgb(225, 255, 255, .5);
+    box-shadow: 0 0 10px rgb(0, 0, 0, .2);
+    backdrop-filter: blur(20px);
+    color: white;
+    border-radius: 10px;
 }
 
-.oculto{
-    display: none;
+.contenedor h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 2px;
+}
+
+.contenedor .cajaLogin{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0px;
+    padding: 2px;
+    color: white;
+}
+
+.cajaLogin input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgb(225, 255, 255);
+    border-radius: 40px;
+    font-size: 20px;
+    color: white;
+    padding: 20px 45px 20px 20px;
+}
+
+.cajaLogin input::placeholder{
+    color: rgba(255, 255, 255, 0.445);
+}
+
+.cajaLogin i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.cajaLogin .recuerdame{
+   padding: 6px;
+    color: white;
+}
+
+.btnLogin{
+    width: 100%;
+    height: 45px;
+    margin: 5px 5px 5px 0;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    background-color: white;
+    cursor: pointer; 
+    font-size: 16px;
+    color: black;
 }
